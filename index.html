@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Underground Heardle</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg"></div>
+
+  <main class="app">
+    <div class="topbar">
+      <div>
+        <div class="pill">UNDERGROUND HEARDLE</div>
+        <h1>Guess the track from the clip</h1>
+        <p class="sub">Starts short. Gets longer every round.</p>
+      </div>
+
+      <div class="mode-wrap">
+        <button class="mode-btn active" id="dailyBtn">Daily</button>
+        <button class="mode-btn" id="endlessBtn">Endless</button>
+      </div>
+    </div>
+
+    <section class="card hero">
+      <div class="hero-row">
+        <div>
+          <div class="muted">CURRENT CLIP</div>
+          <div class="big" id="clipLength">1s</div>
+        </div>
+
+        <div class="controls">
+          <button id="playBtn">▶ Play Clip</button>
+          <button id="skipBtn" class="ghost">Skip</button>
+          <button id="shareBtn" class="ghost">Share</button>
+        </div>
+      </div>
+
+      <div class="steps" id="steps"></div>
+    </section>
+
+    <section class="card">
+      <label for="search" class="label">Type your guess</label>
+      <input id="search" placeholder="Type song or artist..." autocomplete="off" />
+      <div id="results" class="results"></div>
+    </section>
+
+    <section class="card">
+      <div class="label">Guesses</div>
+      <div id="guesses" class="guesses"></div>
+    </section>
+
+   <section class="card answer-card" id="answerCard" style="display:none;">
+  <div class="muted">ANSWER</div>
+  <div class="answer" id="answerText"></div>
+  <div id="streakText" class="streakText"></div>
+</section>
+  </main>
+
+  <script src="songs.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
