@@ -63,7 +63,24 @@ function getDailySong() {
 }
 
 function getRandomSong() {
-  return SONGS[Math.floor(Math.random() * SONGS.length)];
+  let used = JSON.parse(localStorage.getItem("usedSongs") || "[]");
+
+  // if all songs used → reset
+  if (used.length >= SONGS.length) {
+    used = [];
+  }
+
+  // filter unused songs
+  const available = SONGS.filter(song => !used.includes(song.id));
+
+  // pick random from unused
+  const song = available[Math.floor(Math.random() * available.length)];
+
+  // save it as used
+  used.push(song.id);
+  localStorage.setItem("usedSongs", JSON.stringify(used));
+
+  return song;
 }
 
 function resetRound() {
