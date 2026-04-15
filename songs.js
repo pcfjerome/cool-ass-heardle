@@ -19,7 +19,7 @@ const SONGS = [
   { id: "18", title: "Relevant", artist: "Lil Uzi Vert", display: "Relevant - Lil Uzi Vert", clip: "clips/relevant.mp3" },
   { id: "19", title: "RIP", artist: "Playboi Carti", display: "RIP - Playboi Carti", clip: "clips/rip.mp3" },
   { id: "20", title: "Trenches", artist: "Osamason", display: "Trenches - Osamason", clip: "clips/trenches.mp3" },
-  { id: "21", title: "WISHIN", artist: "Rexv2", display: "WISHIN - Rexv2", clip: "clips/wishin.mp3" },
+  { id: "21", title: "WISHIN", artist: "Rexv2", display: "WISHIN - Rexv2", clip: "clips/WISHIN.mp3" },
   { id: "22", title: "Mona Lisa", artist: "Lucki", display: "Mona Lisa - Lucki", clip: "clips/mona-lisa.mp3" },
   { id: "23", title: "Can't Save Her", artist: "Lil Uzi Vert", display: "Can't Save Her - Lil Uzi Vert", clip: "clips/cant-save-her.mp3" },
   { id: "24", title: "Uh Oh, Thots!", artist: "Trippie Redd & XXXTENTACION", display: "Uh Oh, Thots! - Trippie Redd & XXXTENTACION", clip: "clips/uh-oh-thots.mp3" },
