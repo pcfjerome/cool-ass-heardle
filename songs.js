@@ -25,7 +25,7 @@ const SONGS = [
   { id: "24", title: "Uh Oh, Thots!", artist: "Trippie Redd & XXXTENTACION", display: "Uh Oh, Thots! - Trippie Redd & XXXTENTACION", clip: "clips/uh-oh-thots.mp3" },
   { id: "25", title: "KYLIE!!!", artist: "Lucki", display: "KYLIE!!! - Lucki", clip: "clips/kylie.mp3" },
   { id: "26", title: "Marceline", artist: "Che", display: "Marceline - Che", clip: "clips/marceline.mp3" },
-  { id: "27", title: "Trippple H", artist: "K Suave, Trippie Redd & D Savage", display: "Trippple H - K Suave, Trippie Redd & D Savage", clip: "clips/trippple-h.mp3" },
+  { id: "27", title: "Trippple H", artist: "K Suave, Trippie Redd & D Savage", display: "Trippple H - K Suave, Trippie Redd & D Savage", clip: "clips/Trippple-H.mp3" },
   { id: "28", title: "Century", artist: "Esdeekid", display: "Century - Esdeekid", clip: "clips/century.mp3" },
   { id: "29", title: "Ref", artist: "Osamason", display: "Ref - Osamason", clip: "clips/ref.mp3" },
   { id: "30", title: "Die With Regret", artist: "Glokk40Spaz", display: "Die With Regret - Glokk40Spaz", clip: "clips/die-with-regret.mp3" },
