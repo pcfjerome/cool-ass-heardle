@@ -4,7 +4,7 @@ const SONGS = [
   { id: "3", title: "13", artist: "Lucki", display: "13 - Lucki", clip: "clips/13.mp3" },
   { id: "4", title: "Back 2 Da Basics", artist: "Summrs", display: "Back 2 Da Basics - Summrs", clip: "clips/back-2-da-basics.mp3" },
   { id: "5", title: "BFO2", artist: "Summrs", display: "BFO2 - Summrs", clip: "clips/bfo2.mp3" },
-  { id: "6", title: "Chrome Heart Tagz", artist: "Lil Uzi Vert", display: "Chrome Heart Tagz - Lil Uzi Vert", clip: "clips/chrome-heart-tagz.mp3" },
+  { id: "6", title: "Chrome Heart Tags", artist: "Lil Uzi Vert", display: "Chrome Heart Tags - Lil Uzi Vert", clip: "clips/chrome-heart-tags.mp3" },
   { id: "7", title: "Enter The Dragon", artist: "Lancey Foux", display: "Enter The Dragon - Lancey Foux", clip: "clips/enter-the-dragon.mp3" },
   { id: "8", title: "Excuse My French", artist: "Fimiguerrero & Len", display: "Excuse My French - Fimiguerrero & Len", clip: "clips/excuse-my-french.mp3" },
   { id: "9", title: "Get Away", artist: "Osamason", display: "Get Away - Osamason", clip: "clips/get-away.mp3" },
