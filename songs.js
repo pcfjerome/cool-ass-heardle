@@ -1,6 +1,6 @@
 const SONGS = [
   { id: "1", title: "@ MEH", artist: "Playboi Carti", display: "@ MEH - Playboi Carti", clip: "clips/at-meh.mp3" },
-  { id: "2", title: "3G", artist: "Lil Uzi Vert & Yeat", display: "3G - Lil Uzi Vert & Yeat", clip: "clips/3g.mp3" },
+  { id: "2", title: "3G", artist: "Lil Uzi Vert & Yeat", display: "3G - Lil Uzi Vert & Yeat", clip: "clips/3G.mp3" },
   { id: "3", title: "13", artist: "Lucki", display: "13 - Lucki", clip: "clips/13.mp3" },
   { id: "4", title: "Back 2 Da Basics", artist: "Summrs", display: "Back 2 Da Basics - Summrs", clip: "clips/back-2-da-basics.mp3" },
   { id: "5", title: "BFO2", artist: "Summrs", display: "BFO2 - Summrs", clip: "clips/bfo2.mp3" },
